@@ -1,0 +1,111 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #5CDB95;
+}
+
+#loginbox {
+    background-color: #EDF5E1;
+    border-radius: 16px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow:10px 10px 10px #3d8b61;
+}
+
+#mainhead {
+    text-align: center;
+    color: #05386B;
+    padding-top: 40px;
+}
+
+.userdetail {
+    background-color: #EDF5E1;
+    border-style: none;
+    margin-left: 48px;
+}
+
+.hr {
+    width: 300px;
+    background-color: gray;
+}
+
+#forgotpw {
+    margin-left: 224px;
+    margin-right: auto;
+    text-decoration: none;
+    color: gray;
+}
+
+#submit {
+    border-radius: 40px;
+    border-style: none;
+    background-color: #05386B;
+    color: #EDF5E1;
+    font-size: large;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80px;
+    margin-bottom: 25px;
+}
+
+#signupsocial {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+#signupmanual {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: small;
+
+}
+
+#submitdiv {
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #loginbox {
+        width: max-content;
+    }
+
+    #forgotpw {
+        text-align: right;
+        padding-right: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+    #loginbox {
+        background-color: #EDF5E1;
+        border-radius: 16px;
+        width: min-content;
+        box-shadow:10px 10px 10px #3d8b61;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+
+/*Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #loginbox {
+        background-color: #EDF5E1;
+        border-radius: 16px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        box-shadow:10px 10px 10px #3d8b61;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

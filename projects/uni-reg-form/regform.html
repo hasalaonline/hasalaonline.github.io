@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regformstyles.css">
+    <title>University Registration</title>
+</head>
+<body>
+    <h2 id = "main_title">University Registration Form</h2>
+    <div id = "form">
+        <form action="thankyou.html" method="post">
+            <fieldset class="fieldback">
+                <legend>Personal Details</legend>
+                <label for="fName" id="fNam">First Name: </label>
+                <input type="text" class="textbox"><br>
+                <label for="lName" id="lName">Last Name: </label>
+                <input type="text" class="textbox"><br>
+                <label for="fullname" id="fullname">Full Name: </label>
+                <input type="text" class="textbox"><br>
+                <label for="address" id="addlbl">Address: </label>
+                <textarea name="address" id="address" cols="22" rows="4" class="textbox"></textarea><br>
+                <label for="dob" id="dob">Date of Birth: </label>
+                <input type="date" class="textbox"><br>
+                <label for="email">Email: </label>
+                <input type="email" class="textbox" required><br>
+                <label for="tel">Telephone: </label>
+                <input type="tel" pattern="[0-9]{3}[0-9]{7}" placeholder="0711234567" class="textbox"><br>
+
+                <label for="gender">Gender: </label><br>
+                Male: <input type="radio" name="gender">
+                Female: <input type="radio" name="gender">
+
+            </fieldset>
+
+            <fieldset class="fieldback">
+                <legend>Course Details</legend>
+                <label>Undergraduate</label><input type="radio" name="coursetype"><br>
+                <label>Postgraduate</label><input type="radio" name="coursetype"><br>
+
+                <label for="degree">Degree Program</label>
+                <select name="" id="">
+                    <option value="">Computer Science</option>
+                    <option value="">Software Engineering</option>
+                </select>
+
+            </fieldset>
+            <fieldset class="fieldback">
+                <Label id="lbl_terms">Terms and Conditions: </Label>
+                <input type="checkbox"><br>
+            </fieldset>
+                <input type="submit" id="btnsubmit">
+                <input type="reset" id="btnreset">
+        </form>
+    </div>
+</body>
+</html>
