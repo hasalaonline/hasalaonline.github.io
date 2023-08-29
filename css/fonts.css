@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('ttf'),
+  }
+
+    @font-face {
+        font-family: 'SFPRODISPLAYMEDIUM';
+        src: url('../assets/fonts/SFPRODISPLAYMEDIUM.OTF') format('OTF'),
+    }
+
+    @font-face {
+        font-family: 'SFPRODISPLAYREGULAR';
+        src: url('../assets/fonts/SFPRODISPLAYREGULAR.OTF') format('OTF'),
+    }
+  
+  #section-title {
+    font-family: 'SFPRODISPLAYREGULAR', sans-serif;
+  }
+  

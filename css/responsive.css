@@ -1,0 +1,476 @@
+ /* responsiveness */
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        display: block;
+    }
+    /* header  */
+    nav {
+        display: none;
+    }
+
+    /* hero section */
+    #hero {
+        padding: 8vw;
+    }
+
+    .zoom-image {
+        display: none;
+    }
+
+
+    #hero h1 {
+        font-size: 40px;
+    }
+
+    #hero-text h2 {
+        display: none;
+    }
+
+    .hero-image {
+        position: static;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .hero-name {
+        position: static;
+        margin-top: 20px;
+        font-size: 28px;
+    }
+
+    .hero-title {
+        display: none;
+    }
+
+    .hero-main {
+        position: static;
+    }
+
+    .hero-contact {
+        display: none;
+    }
+
+    .hero-sub {
+        position: static;
+        text-align: center;
+    }
+
+
+    /* about-me  */
+    .about-me-grid-container {
+        grid-template-columns: auto;
+      }
+
+      .about-me-container h1 {
+        margin-top: 10%;
+      }
+
+      .about-me-grid-item img {
+        display: none;
+      }
+    
+    /* projects */
+    #projects {
+        padding-top: 100px;
+    }
+    
+    #section-title {
+        margin-left: 0vw;
+        font-size: 60px;
+        width: 100%;
+        padding: 4vw;
+    }
+    
+    #section-sub-title {
+        margin-left: 0vw;
+        font-size: 30px;
+        padding: 4vw;
+    }
+    
+    .grid-container {
+        grid-template-columns: auto;
+        padding: 4vw;
+      }
+
+      /* skills */
+
+  .skills-grid-container {
+    grid-template-columns: auto;
+    padding: 4vw;
+  }
+  .skills-grid-item {
+    padding: 0vw;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+  .chart-container {
+    font-size: 10px;
+    margin: 0 auto;
+    padding-left: 10vw;
+    padding-bottom: 15vw;
+    max-width: 50vw;
+  }
+
+  .skill {
+    max-width: 50vw;
+  }
+
+  .skill-1 {
+    width: 47.5vw;
+  }
+
+  .skill-2 {
+    width: 45vw;
+  }
+
+  .skill-3 {
+    width: 35vw;
+  }
+
+  .skill-4 {
+    width: 42vw;
+  }
+
+  .skill-5 {
+    width: 44vw;
+  }
+
+  .skill-6 {
+    width: 45vw;
+  }
+
+  .skill-7 {
+    width: 40vw;
+  }
+
+  .skill-8 {
+    width: 49vw;
+  }
+
+  /* testimonials */
+
+  .testimonial {
+    height: 300px;
+    padding: 40px 20px;
+    margin: 20px 10px;
+}
+
+/* blog  */
+.blog-grid-item {
+    padding: 0px;
+  }
+
+  .blog-grid-container {
+    padding: 20px;
+  }
+
+  }
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body {
+        display: block;
+    }
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 601px) {
+    nav {
+        display: none;
+    }
+
+    .hero-sub {
+        padding-top: 2vw;
+        padding-left: 0vw;
+      }
+
+      .hero-image {
+        width: 24vw;
+      }
+
+      .hero-title {
+        font-size: 60px;
+      }
+    .about-me-grid-container {
+        grid-template-columns: auto;
+      }
+
+      .about-me-grid-item {
+        text-align: center;
+      }
+
+      .skills-grid-container {
+        grid-template-columns: auto;
+      }
+    
+      .about-me-container h1 {
+        margin-top: 10%;
+      }
+    
+      .chart-container {
+        padding-left: 28vw;
+        padding-bottom: 10vw;
+        max-width: 50vw;
+      }
+
+      .skill-title {
+        padding-top: 12vw;
+      }
+
+      .grid-container {
+        grid-template-columns: auto auto ;
+      }
+
+      .testimonial {
+        height: min-content;
+    }
+
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1000px) {
+    nav {
+        display: block;
+    }
+    .skills-grid-container {
+        grid-template-columns: auto auto;
+      }
+
+      .chart-container {
+        padding-left: 8vw;
+        padding-bottom: 10vw;
+        max-width: 50vw;
+      }
+
+      .about-me-grid-item {
+        text-align: left;
+      }
+
+      .hero-sub {
+        padding-top: 2vw;
+        padding-left: 0vw;
+      }
+
+      .hero-image {
+        width: 24vw;
+      }
+
+      .hero-title {
+        font-size: 60px;
+      }
+
+      #testimonials-section-title {
+        padding: 8vw 20vw 4vw 20vw;
+        font-size: 80px;
+      }
+  }
+  @media only screen and (min-width: 1200px) {
+    .grid-container {
+        grid-template-columns: auto auto auto auto;
+      }
+
+      .testimonial {
+        height: 20vw;
+    }
+
+    .about-me-grid-container {
+        grid-template-columns: auto auto;
+      }
+
+      .about-me-container h1 {
+        margin-top: 30%;
+      }
+
+      .hero-sub {
+        padding-top: 1vw;
+        padding-left: 0vw;
+      }
+
+      .hero-image {
+        width: 20vw;
+      }
+
+      .hero-title {
+        font-size: 80px;
+      }
+
+      
+  } 
+
+  @media only screen and (min-width: 1500px) {
+      .chart-container {
+        padding-left: 10vw;
+      }
+
+      .hero-sub {
+        padding-left: 7vw;
+        padding-top: 2vw;
+      }
+      
+      .hero-image {
+        width: 24vw;
+      }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1900px) {  
+      .hero-sub {
+        padding-left: 13vw;
+        padding-top: 2vw;
+      }
+
+      .hero-image {
+        width: 24vw;
+      }
+
+      .chart-container {
+        padding-left: 13vw;
+        padding-bottom: 10vw;
+        max-width: 50vw;
+      }
+
+      .about-me-grid-item {
+        text-align: left;
+      }
+
+      #about-me-description {
+        font-size: 30px;
+      }
+
+      .about-me-container h1 {
+        margin-top: 16%;
+      }
+
+      .testimonial {
+        height: 13vw;
+        
+    }
+
+    #testimonials-section-title {
+        padding: 8vw 20vw 4vw 20vw;
+        font-size: 80px;
+      }
+
+      header h2 {
+        margin-right: 8vw;
+        font-family: 'SFPRODISPLAYREGULAR', sans-serif;
+        font-size: 20px;
+        font-weight: 490;
+    }
+    
+    #contact-me {
+        color: #016ddb;
+        padding-left: 10vw;
+        padding-top: 4px;
+    }
+
+
+
+  }
+
+  @media only screen and (min-width: 3000px) {  
+    
+    nav a {
+        text-decoration: none;
+        color: #000000a1;
+        padding: 0px 10px;
+        margin: 0 5px;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        font-size: 35px;
+    }
+    
+    nav a:hover {
+        color: #000000db;
+    }
+    
+    #contact-me {
+        color: #016ddb;
+        padding-left: 16vw;
+        padding-top: 4px;
+        font-size: 35px;
+    }
+
+    #hero {
+        background-color: #fff;
+        text-align: center;
+        padding: 3vw;
+        padding-top: 10vw;
+    }
+
+    .hero-sub {
+      padding-left: 20vw;
+      padding-top: 2vw;
+    }
+
+    .hero-image {
+      width: 24vw;
+    }
+
+    .hero-name {
+        font-size: 40px;
+    }
+
+    .hero-title {
+        font-size: 100px;
+    }
+
+    .chart-container {
+        font-size: 40px;
+      padding-left: 16vw;
+      padding-bottom: 10vw;
+      max-width: 50vw;
+    }
+
+    .about-me-grid-item {
+      text-align: left;
+    }
+
+    #about-me-description {
+      font-size: 30px;
+    }
+
+    .about-me-container h1 {
+      margin-top: 16%;
+    }
+
+    .testimonial {
+      height: 13vw;
+      
+  }
+
+  #testimonials-section-title {
+      padding: 8vw 20vw 4vw 20vw;
+      font-size: 80px;
+    }
+
+    header h2 {
+      font-size: 40px;
+      font-weight: 490;
+  }
+
+  .gradient-text-2 {
+    font-size: 60px;
+  }
+  
+
+}

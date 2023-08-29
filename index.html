@@ -1,163 +1,220 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> Hasala Abhilasha </title>
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="src/img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasala Abhilasha</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato:wght@100&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
-
 <body>
-  <div class="scroll-button">
-    <a href="#home"><i class="fas fa-arrow-up"></i></a>
-  </div>
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Hasala Abhilasha</a></div>
-      <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
+    <header>
+        <h2>Hasala Abhilasha</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="mailto:hasala002@gmail.com" style="text-decoration: none;"><p id="contact-me">Contact me ></p></a>
+    </header>
+    <hr>
+    
+    <main>
+        <!-- hero section  -->
+
+        <section id="hero">
+            <div class="hero-container">
+                <div class="hero-main">
+                    <img src="assets/img/hero-image.jpeg" alt="hero image" class="hero-image gradient-glow-border">
+                </div>
+                <div class="hero-sub">
+                    <p class="hero-name">Nupe Arachchige Hasala Abhilasha <i class="fas fa-check-circle" style="color: dodgerblue;"></i></p>
+                    <br>
+                    <p class="hero-title">Computer Science Undergraduate.</p>
+                    <br>
+                    <p class="hero-contact"><a href="mailto:hasala002@gmail.com" style="text-decoration: none;">Contact Me ></a></p>
+                </div>
+                <img src="assets/img/hero-background.png" alt="hero background image" class="zoom-image">
+            </div>
+            <div id="hero-text">
+                <h1 id="hero-title" class="gradient-text-2">Crafting the digital future one line of code at a time.</h1>
+            </div>
+            <div class="resume-btn">
+                <button id="hero-btn"><a href="assets/resume/N.A Hasala Abhilasha.pdf">Resume</a></button>
+            </div>
+        </section>
+
+        <!-- about me -->
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-grid-container">
+                    <div class="about-me-grid-item">
+                        <h1>About Me</h1>
+                        <p id="about-me-description">Greetings! I'm a passionate 22-year-old Computer Science undergraduate from Matara, Sri Lanka. My fascination with technology ignited at a young age and has evolved into a burning passion. I'm devoted to mastering the art of coding, from algorithms to AI. Collaboration fuels my creativity—I thrive in team environments where diverse perspectives unite to create exceptional solutions. This portfolio showcases my proudest projects and coding challenges, reflecting my dedication to innovation. Let's connect and shape the future together, one line of code at a time.</p>
+                    </div>
+                    <div class="about-me-grid-item">
+                      <img src="assets/img/hasala.PNG" alt="Hasala Abhilasha" class="project-img" id="about-me-img">
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-- skills section -->
+
+        <section id="skills">
+
+            <div class="skills-grid-container">
+                <div class="skills-grid-item skills-chart-back">
+              <div class="skill-title">
+                <h4 class="gradient-text-2">Skills</h4>
+            </div>
+                        <div class="chart-container">
+                            <div class="skill skill-1">
+                              <div class="skill-name">HTML</div>
+                              <div class="skill-level" style="width: 80%;">95%</div>
+                            </div>
+                            
+                            <div class="skill skill-2">
+                                <div class="skill-name">CSS</div>
+                                <div class="skill-level" style="width: 80%;">90%</div>
+                              </div>
+    
+                              <div class="skill skill-3">
+                                <div class="skill-name">JavaScript</div>
+                                <div class="skill-level" style="width: 80%;">70%</div>
+                              </div>
+    
+                              <div class="skill skill-4">
+                                <div class="skill-name">Python</div>
+                                <div class="skill-level" style="width: 80%;">84%</div>
+                              </div>
+    
+                              <div class="skill skill-5">
+                                <div class="skill-name">Django</div>
+                                <div class="skill-level" style="width: 80%;">88%</div>
+                              </div>
+    
+                              <div class="skill skill-6">
+                                <div class="skill-name">Java</div>
+                                <div class="skill-level" style="width: 80%;">90%</div>
+                              </div>
+    
+                              <div class="skill skill-7">
+                                <div class="skill-name">Flutter</div>
+                                <div class="skill-level" style="width: 80%;">80%</div>
+                              </div>
+    
+                              <div class="skill skill-8">
+                                <div class="skill-name">Git/GitHub</div>
+                                <div class="skill-level" style="width: 80%;">98%</div>
+                              </div>                   
+                    </div>
+                    
+                </div>
+                
+                <div class="skills-grid-item" style="padding: 0px;">
+                  <img src="assets/img/logo-art.png" alt="skills section logo art" class="skills-grid-img">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <p id="skills-image-description">Crafting skills, forging excellence.</p>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                </div>
+              </div>
+        </section>
+
+        <!-- projects section -->
+
+        <section id="projects">
+            <h4 id="section-sub-title">Projects</h4>
+            <h1 id="section-title">A small selection of my projects</h1>
+        
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="assets/img/projects/billpotha.png" alt="Project 1" class="project-img">
+            <h3 class="gradient-text-1">Bill Potha</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
           </div>
-      </ul>
-      <div class="media-icons">
-        <a href="https://www.facebook.com/hasalaofficial"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com/hasalaonline"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/hasalaonline"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.instagram.com/hasalaonline"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-    <div class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </div>
-  </nav>
- <section class="home" id="home">
-   <div class="home-content">
-     <div class="text">
-       <div class="text-one">Hello,</div>
-       <div class="text-two">I'm Hasala Abhilasha</div>
-       <div class="text-three">Tech Enthusiast</div>
-     </div>
-     <div class="button">
-      <a href = "mailto: hasala002@gmail.com"><button>Hire Me</button></a>
-     </div>
-   </div>
- </section>
-<section class="about" id="about">
-  <div class="content">
-    <div class="title"><span>About Me</span></div>
-  <div class="about-details">
-    <div class="left">
-      <img src="src/img/Hasala.jpeg" alt="" id="propic">
-    </div>
-    <div class="right">
-      <div class="topic">Developing Is My Passion</div>
-      <div class="text-four">I'm a computer science undergraduate in Sri Lanka. I make responsive websites with dynamic user experiences.Also I'm a technology content writer on Sri Lanka's Number 1 Tech News Website called <a href="https://androidwedakarayo.com/author/hasala/">Android වැඩකාරයෝ</a>.</div>
-      <p></p>
-      <div class="button">
-        <button><a href="N.A Hasala Abhilasha.pdf" target="_blank">Resume/CV</a></button>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-<section class="skills" id="skills">
- <div class="content">
-   <div class="title"><span>My Skills</span></div>
-   <div class="skills-details">
-     <div class="text">
-       <div class="topic">Skills Reflects Our Knowledge</div>
-       <p></p>
-       <div class="experience">
-         <div class="num">2</div>
-         <div class="exp">Years Of <br> Experience</div>
-       </div>
-     </div>
-     <div class="boxes">
-       <div class="box">
-         <div class="topic">HTML</div>
-         <div class="per">94%</div>
-       </div>
-       <div class="box">
-         <div class="topic">CSS</div>
-         <div class="per">90%</div>
-       </div>
-       <div class="box">
-         <div class="topic">JavScript</div>
-         <div class="per">70%</div>
-       </div>
-       <div class="box">
-         <div class="topic">Java</div>
-         <div class="per">60%</div>
-       </div>
-       <div class="box">
-        <div class="topic">Python</div>
-        <div class="per">85%</div>
-      </div>
-      <div class="box">
-        <div class="topic">UX/UI</div>
-        <div class="per">76%</div>
-      </div>
-     </div>
-   </div>
- </div>
-</section>
+          
+          <div class="grid-item">
+            <img src="assets/img/projects/billpotha.png" alt="Project 2" class="project-img">
+            <h3 class="gradient-text-2">Text2Specs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          </div>  
+          <div class="grid-item">
+            <img src="assets/img/projects/Portfolio Website.png" alt="Project 3" class="project-img">
+            <h3 class="gradient-text-1">Portfolio Website</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          </div>
 
- <section class="services" id="services">
-   <div class="content">
-     <div class="title"><span>My Services</span></div>
-     <div class="boxes">
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-desktop"></i>
-       </div>
-       <div class="topic">Web Devlopment</div>
-       <p></p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-tablet-alt"></i>
-       </div>
-       <div class="topic">Apps Devlopment</div>
-       <p></p>
-     </div>
-   </div>
-   </div>
- </section>
+          <div class="grid-item">
+            <img src="assets/img/projects/Text2Specs.png" alt="Project 4" class="project-img">
+            <h3 class="gradient-text-2">Text2Specs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          </div>
+        </div>
+        </section>
 
- <section class="projects" id="projects">
-  <div class="content">
-    <div class="title" id="projects"><span>My Projects</span></div>
-    <p>Yet to update</p>
-  </div>
-</section>
+        <!-- testimonials -->
 
-<section class="contact" id="contact">
-  <div class="content">
-    <div class="title"><span>Contact Me</span></div>
-    <div class="text">
-      <div class="topic">Have Any Project?</div>
-      <p></p>
-      <div class="button">
-        <a href = "mailto: contact@hasala.dev"><button>Let's Chat</button></a>
-      </div>
-    </div>
-  </div>
-</section>
+        <section id="testimonials">
+            <h1 id="testimonials-section-title" class="gradient-text-1">Echoes of Excellence: Stories from Our Community.</h1>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <img src="assets/img/testimonial/lanka.jpg" alt="Lanka" class="testimonial-img">
+                    <p style="font-weight: 300;">"His exceptional problem-solving skill swiftly untangled the complexities, leaving us astounded."</p>
+                    <br>
+                    <cite>Pasindu Lanka</cite>
+                    <p style="font-size: 16px;">Game Developer</p>
+                </div>
+        
+                <div class="testimonial">
+                    <img src="assets/img/hero-image.jpeg" alt="Test" class="testimonial-img">
+                    <br>
+                    <p style="font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <br>
+                    <cite>Peter Doe</cite>
+                </div>
+                <!-- Add more testimonials here -->
+            </div>
+            <div class="slider-controls">
+                <button class="prev-button"><i class="fas fa-angle-left"></i></button>
+                <button class="next-button"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </section>
 
-<footer>
-  <div class="text">
-    <span>Created By <a href="#">Hasala Abhilasha</a> | &#169; 2023 All Rights Reserved | This website hosted on Github</span>
-  </div>
-</footer>
-
-  <script src="src/js/script.js"></script>
+        <!-- blog -->
+        <!-- <section id="blog">
+            <h4 id="section-sub-title">Blog</h4>
+            <h1 id="section-title">Words Crafted, Worlds Shared.</h1>
+        
+        <div class="blog-grid-container">
+          <div class="blog-grid-item">
+            <div class='sk-ww-medium-publication-feed' data-embed-id='184191'></div><script src='https://widgets.sociablekit.com/medium-publication-feed/widget.js' async defer></script>
+          </div>
+          
+        </div>
+        </section> -->
+    </main>
+    
+    <footer>
+       <hr>
+        <p>&copy; 2023 Hasala Abhilasha. All rights reserved. This website hosted <i class="fas fa-heart" style="color: rgb(216, 9, 9);"></i>
+            with GitHub Pages</p>
+    </footer>
+    <script src="js/home.js"></script>
 </body>
 </html>
