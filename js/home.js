@@ -1,9 +1,5 @@
-document.addEventListener("DOMContentLoaded", main());
-
-function screenWidth(screenWidth) {
-    return window.innerWidth >= screenWidth;
-}
-function main(){
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.style.display = 'none';
     var screenWidth = window.innerWidth;
     if (screenWidth >= 3000) {
         zooming(2.5);
@@ -13,7 +9,12 @@ function main(){
     } else if(screenWidth >=600) {
         zooming(10);
     }
+});
+
+function screenWidth(screenWidth) {
+    return window.innerWidth >= screenWidth;
 }
+
 function zooming(loadingScale) {
     window.addEventListener('load', function() {
         var image = document.querySelector('.zoom-image');
