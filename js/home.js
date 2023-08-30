@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
         zooming(1.5);
     } else if(screenWidth >=600) {
         zooming(10);
+    } else {
+        var loadingElement = document.querySelector('.loading');
+        loadingElement.style.display = 'none';
     }
 });
 

@@ -10,10 +10,7 @@
     body {
         display: block;
     }
-
-    .loading {
-      display: none;
-    }
+    
     /* header  */
     nav {
         display: none;
