@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    document.body.style.display = 'none';
+
     var screenWidth = window.innerWidth;
     if (screenWidth >= 3000) {
         zooming(2.5);
@@ -18,7 +18,7 @@ function screenWidth(screenWidth) {
 function zooming(loadingScale) {
     window.addEventListener('load', function() {
         var image = document.querySelector('.zoom-image');
-        var bodyn = document.querySelector('body');
+        var loadingElement = document.querySelector('.loading');
         var scale = loadingScale;
         var duration = 0;
         var delay = 0;
@@ -26,7 +26,9 @@ function zooming(loadingScale) {
         image.style.transition = 'transform ' + duration + 'ms ease-out ' + delay + 'ms';
         image.style.transform = 'scale(' + scale + ')';
         image.style.display = 'block';
-        bodyn.style.display = 'block';
+        // Hide the loading animation and show the body once everything is loaded
+        loadingElement.style.display = 'none';
+        document.body.style.display = 'block';
 
     });
     
