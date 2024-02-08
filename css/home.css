@@ -412,6 +412,15 @@ header h2 {
     border: 2px solid #0c7ced;
   }
 
+  .grid-container a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .grid-container a:visited {
+    color: #000;
+  }
+
   .grid-item p {
     color: #565657;
     font-size: 16px;

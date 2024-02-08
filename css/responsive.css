@@ -89,10 +89,15 @@
         padding: 4vw;
     }
     
-    #section-sub-title {
+    #section-sub-title, form {
         margin-left: 0vw;
         font-size: 30px;
         padding: 4vw;
+    }
+
+    form {
+      width: 90%;
+      margin: 0px 0px 0px 15px;
     }
     
     .grid-container {
